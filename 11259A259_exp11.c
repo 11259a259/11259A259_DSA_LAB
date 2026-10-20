@@ -66,8 +66,7 @@ int main() {
  scanf("%d", &arr[i]);
  do {
  printf("\n--- Sorting Menu ---\n");
- printf("1. Bubble Sort\n2. Selection Sort\n3. Heap Sort\n4.
-Exit\n");
+ printf("1. Bubble Sort\n2. Selection Sort\n3. Heap Sort\n4.Exit\n");
  printf("Enter your choice: ");
  scanf("%d", &choice);
  for (i = 0; i < n; i++)
@@ -86,7 +85,7 @@ Exit\n");
  case 3:
  heapSort(temp, n);
  printf("Sorted array (Heap Sort): ");
-rintArray(temp, n);
+printArray(temp, n);
  break;
  case 4:
  printf("Exiting program.\n");
